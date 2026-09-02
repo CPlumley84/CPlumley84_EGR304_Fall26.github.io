@@ -5,18 +5,18 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "6"> Christopher Plumley Datasheet</font><br>
 as part of<br>
 <font size= "8"> Project Name</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 207 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: September, 02, 2026**
 </center>
 
 ## Introduction
 
-* **This needs to be updated so that a reader gets an idea of the purpose of this datasheet.**
+* **This is an example of hwo the datasheet page will look.**
 
 ### Project Summary
 
