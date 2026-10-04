@@ -1,24 +1,13 @@
 ---
-title: Module's Block Diagram
+title: Block Diagram
 tags:
 - tag1
 - tag2
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+The block diagram shows the Microchip PIC-Nano board and it's associated inputs and outputs. The general purpose of this design is to receive digital values from it's companion boards. The values received will be used in conjunction with user seleted settings to perform a set of functions. Those functions include manipulating an oLED screen to display data and to set the conditions for the mood lighting outputs. The board runs on 5V DC as do the LED array and the oLED screen. The device has 3 push buttons that provide digital inputs to the board, which in turn provide the user wtih an interface to operate the device.
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+## Block Diagram 
 
-
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Block-Diagram ](Block-Diagram.png)
