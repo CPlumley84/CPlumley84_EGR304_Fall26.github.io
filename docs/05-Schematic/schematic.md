@@ -6,7 +6,7 @@ Title: Submodule Schematic
 
 This schematic is design to support .... (highlight functionally, power, and controller).
 
-![schematic](schematic.png)
+![](schematic.png)
 
 **Figure 1** Showing my schematic.
 
