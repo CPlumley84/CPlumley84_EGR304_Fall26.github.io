@@ -1,5 +1,5 @@
 ---
-title: Module Schematic
+Title: Submodule Schematic
 ---
 
 ## Overview
@@ -8,7 +8,7 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 ![schematic](schematic.png)
 
-**Figure ##:** Showing my schematic.
+**Figure 1** Showing my schematic.
 
 
 ## Resouces
