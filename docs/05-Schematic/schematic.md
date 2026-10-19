@@ -7,7 +7,7 @@ title: Module Schematic
 This schematic is design to support .... (highlight functionally, power, and controller).
 
 
-![schematic](schematic.png){style width:"350" height:"300;"}
+![schematic](schematic.png)
 **Figure ##:** Showing my schematic.
 
 
