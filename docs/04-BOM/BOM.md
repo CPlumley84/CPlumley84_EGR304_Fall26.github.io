@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
+The Bill of Materials shown below includes all components necessary to build the device. Some parts are currently in stock and available while others have a lead time of several months. The most available options were selected.
 
 ## Bill of Materials 
 
