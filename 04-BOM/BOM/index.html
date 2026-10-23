@@ -613,18 +613,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials (Example as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials (Example as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -781,18 +772,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
-      Bill of Materials (Example as Table)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
-    <span class="md-ellipsis">
-      Bill of Materials (Example as Image)
+      Bill of Materials
     </span>
   </a>
   
@@ -834,60 +816,224 @@
 
 <h2 id="overview">Overview</h2>
 <p>Written context needs to added!</p>
-<blockquote>
-<p>Pick <strong>ONLY</strong> one of the two examples show below. <strong>Remove</strong> the other example. <strong>REMOVE notations within the remaining section about being an example.</strong>  </p>
-</blockquote>
-<h2 id="bill-of-materials-example-as-table">Bill of Materials (Example as Table)</h2>
-<p><em>Table ##: An example of one approach to adding your BOM table to this section.</em></p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Part Name/Description</strong></th>
-<th style="text-align: left;"><strong>Qty</strong></th>
-<th style="text-align: left;"><strong>Unit Cost</strong></th>
-<th style="text-align: left;"><strong>Total Cost</strong></th>
-<th style="text-align: left;"><strong>Manufacture</strong></th>
-<th style="text-align: left;"><strong>Manufacturer #</strong></th>
-<th style="text-align: left;"><strong>Vendor Link</strong></th>
-<th style="text-align: left;"><strong>Datasheet Link</strong></th>
-<th style="text-align: left;"><strong>Schematic Reference Designators</strong></th>
+<th>Part Name</th>
+<th style="text-align: right;">Qty</th>
+<th style="text-align: right;">Unit Cost (USD)</th>
+<th style="text-align: right;">Total Cost (USD)</th>
+<th>Manufacturer</th>
+<th>Manufacturer Number</th>
+<th>DigiKey Part Number</th>
+<th>Source URL</th>
+<th>Status / Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">8-bit SIPO/SISO Shift Register, SOIC-16 package</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">$0.49</td>
-<td style="text-align: left;">$ 0.49</td>
-<td style="text-align: left;">NXP</td>
-<td style="text-align: left;">74HC595D,112</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550">DigiKey</a></td>
-<td style="text-align: left;"><a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf">datasheet link</a></td>
-<td style="text-align: left;">U1</td>
+<td>C1 (1 µF)</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$0.35</td>
+<td style="text-align: right;">$0.35</td>
+<td>TDK</td>
+<td>FG26X7R1E105KNT00</td>
+<td>445-175543-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/tdk/FG26X7R1E105KNT00/7326815">DigiKey</a></td>
+<td>Through-hole radial; DigiKey marks not for new designs, but stocked</td>
 </tr>
 <tr>
-<td style="text-align: left;">0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package</td>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">0.2750</td>
-<td style="text-align: left;">$2.75</td>
-<td style="text-align: left;">KEMET</td>
-<td style="text-align: left;">C0805F104K5RACTU</td>
-<td style="text-align: left;">PRLTA 109</td>
-<td style="text-align: left;">n/a</td>
-<td style="text-align: left;">C2, C4, C6, C7, C8, C9, C10, C11, C12, C16</td>
+<td>C2, C3 (0.1 µF)</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">$0.36</td>
+<td style="text-align: right;">$0.72</td>
+<td>TDK</td>
+<td>FA18X8R1H104KRU06</td>
+<td>445-175053-1-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/tdk/FA18X8R1H104KRU06/7360976">DigiKey</a></td>
+<td>Through-hole radial</td>
+</tr>
+<tr>
+<td>Red LED</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">$0.23</td>
+<td style="text-align: right;">$5.75</td>
+<td>Cree LED</td>
+<td>C5SMF-RJE-CU14QBB2</td>
+<td>C5SMF-RJE-CU14QBB2CT-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/cree-led/C5SMF-RJE-CU14QBB2/4794049">DigiKey</a></td>
+<td>5 mm oval T/H; 621 nm; 2.1 V typ @ 20 mA</td>
+</tr>
+<tr>
+<td>Green LED</td>
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">$0.23</td>
+<td style="text-align: right;">$6.90</td>
+<td>Cree LED</td>
+<td>C5SMF-GJF-CV0Y0791</td>
+<td>C5SMF-GJF-CV0Y0791-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/cree-led/C5SMF-GJF-CV0Y0791/4793796">DigiKey</a></td>
+<td>5 mm oval T/H; 527 nm; 3.4 V typ @ 20 mA</td>
+</tr>
+<tr>
+<td>Blue LED</td>
+<td style="text-align: right;">10</td>
+<td style="text-align: right;">$0.23</td>
+<td style="text-align: right;">$2.30</td>
+<td>Cree LED</td>
+<td>C5SMF-BJE-CR0U0451</td>
+<td>C5SMF-BJE-CR0U0451-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/cree-inc/C5SMF-BJE-CR0U0451/4793773">DigiKey</a></td>
+<td>5 mm oval T/H; 470 nm; 3.4 V typ @ 20 mA</td>
+</tr>
+<tr>
+<td>F1 Fuse Holder</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$5.33</td>
+<td style="text-align: right;">$5.33</td>
+<td>Littelfuse</td>
+<td>01530007Z</td>
+<td>F064-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/littelfuse-commercial-vehicle-products/01530007Z/183333">DigiKey</a></td>
+<td>Mini/ATM blade PCB holder; final fuse rating still pending</td>
+</tr>
+<tr>
+<td>Mini Blade Fuse</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$0.37</td>
+<td style="text-align: right;">$0.37</td>
+<td>Littelfuse</td>
+<td>0297002.WXNV</td>
+<td>0297002.WXNV-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/littelfuse-inc/0297002-WXNV/124900">DigiKey</a></td>
+<td>2 A Mini/ATM blade fuse; fuse amperage to be finalized after total-current calculation</td>
+</tr>
+<tr>
+<td>Headers (1×8, 2.54 mm)</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">$0.17</td>
+<td style="text-align: right;">$0.51</td>
+<td>Sullins Connector Solutions</td>
+<td>PRPC008SAAN-RC</td>
+<td>35-PRPC008SAAN-RC-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/sullins-connector-solutions/PRPC008SAAN-RC/2775246">DigiKey</a></td>
+<td>Through-hole vertical male header</td>
+</tr>
+<tr>
+<td>PIC Nano Socket (1×14 female)</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">$0.87</td>
+<td style="text-align: right;">$3.48</td>
+<td>Sullins Connector Solutions</td>
+<td>PPTC141LFBN-RC</td>
+<td>S7012-ND</td>
+<td><a href="https://www.digikey.com/en/products/filter/rectangular-connectors/headers-receptacles-female-sockets/14/315">DigiKey</a></td>
+<td>Four sockets form the two 1×28 Nano rows</td>
+</tr>
+<tr>
+<td>Barrel Jack</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$0.77</td>
+<td style="text-align: right;">$0.77</td>
+<td>Same Sky (formerly CUI Devices)</td>
+<td>PJ-102AH</td>
+<td>CP-102AH-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/PJ-102AH/408448">DigiKey</a></td>
+<td>2.0 mm ID / 5.5 mm OD; T/H right-angle; 5 A</td>
+</tr>
+<tr>
+<td>PIC18F57Q43 Curiosity Nano</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$10.61</td>
+<td style="text-align: right;">$10.61</td>
+<td>Microchip Technology</td>
+<td>DM164150</td>
+<td>150-DM164150-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/microchip-technology/DM164150/11586705">DigiKey</a></td>
+<td>PIC18F57Q43 Curiosity Nano</td>
+</tr>
+<tr>
+<td>MOSFET</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">$0.29</td>
+<td style="text-align: right;">$1.45</td>
+<td>Diotec Semiconductor</td>
+<td>2N7000</td>
+<td>4878-2N7000CT-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/diotec-semiconductor/2N7000/13164314">DigiKey</a></td>
+<td>TO-92; retained for reduced 4-string/channel design</td>
+</tr>
+<tr>
+<td>Resistor 10 kΩ</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">$0.10</td>
+<td style="text-align: right;">$0.50</td>
+<td>YAGEO</td>
+<td>MFR-25FTF52-10K</td>
+<td>13-MFR-25FTF52-10KCT-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/yageo/mfr-25ftf52-10k/9140484">DigiKey</a></td>
+<td>1%; 1/4 W; axial T/H</td>
+</tr>
+<tr>
+<td>Resistor 100 Ω</td>
+<td style="text-align: right;">17</td>
+<td style="text-align: right;">$0.10</td>
+<td style="text-align: right;">$1.70</td>
+<td>YAGEO</td>
+<td>MFR-25FBF52-100R</td>
+<td>100XBK-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/yageo/MFR-25FBF52-100R/12795">DigiKey</a></td>
+<td>1%; 1/4 W; axial T/H; 12 LED strings + 5 gate resistors</td>
+</tr>
+<tr>
+<td>Resistor 130 Ω</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">$0.10</td>
+<td style="text-align: right;">$0.80</td>
+<td>YAGEO</td>
+<td>MFR-25FRF52-130R</td>
+<td>13-MFR-25FRF52-130RCT-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/te-connectivity-passive-product/LR0204F130R/2381056">DigiKey</a></td>
+<td>1%; 1/4 W; axial T/H; 8 red LED strings</td>
+</tr>
+<tr>
+<td>Push Button Switch</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">$2.67</td>
+<td style="text-align: right;">$8.01</td>
+<td>E-Switch</td>
+<td>PB400EEQR1BLK</td>
+<td>EG5547-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/e-switch/PB400EEQR1BLK/8042726">DigiKey</a></td>
+<td>DPST Off-On; T/H right-angle; verify mechanical fit before ordering</td>
+</tr>
+<tr>
+<td>Voltage Regulator</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">$1.05</td>
+<td style="text-align: right;">$1.05</td>
+<td>STMicroelectronics</td>
+<td>L7805CV</td>
+<td>497-1443-5-ND</td>
+<td><a href="https://www.digikey.com/en/products/detail/stmicroelectronics/L7805CV/585964">DigiKey</a></td>
+<td>5 V; 1.5 A; TO-220 T/H</td>
+</tr>
+<tr>
+<td><strong>Known-cost subtotal</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>$50.60</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.</p>
-<ul>
-<li>You could also import your BOM via a screenshot of the spreadsheet created BOM</li>
-</ul>
-<h2 id="bill-of-materials-example-as-image">Bill of Materials (Example as Image)</h2>
-<p><img _2000_="&quot;2000&quot;" alt="" src="../BOM-Screenshot.png" style="style" width:="width:" />
-<strong>Figure ##:</strong> Example Bill of Materials as a screenshot.</p>
-<p>As you can see, the text can be difficult to read without opening the image.</p>
 <h2 id="resouce">Resouce</h2>
-<p>The Bill of Material as a PDF download is available <a href="../PDF_For_BOM_EXAMPLE.pdf"><em>here</em></a>.</p>
+<p>The Bill of Material as a PDF download is available <a href="../BOM.pdf"><em>here</em></a>.</p>
 
 
 
