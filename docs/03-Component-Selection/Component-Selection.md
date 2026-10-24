@@ -25,7 +25,7 @@ title: Module's Selected Major Components
 
 ### Power Management
 
-**2156-LM7805CT-ND**:Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220-3 used to create 5v DC from the 9v DC 3A power supply. 
+**2156-LM7805CT-ND**:Linear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220-3 used to create 5v DC from the 9v DC 3A power supply. Product was selected from the power supply design lab. 
 ![](VoltReg.png)
 Link to Digikey ["Link to part"](https://www.digikey.com/en/products/detail/rochester-electronics-llc/LM7805CT/12600247) 
 
