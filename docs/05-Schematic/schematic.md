@@ -13,4 +13,4 @@ The schematic shown below is for the Dohicky device. It uses two inputs from the
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Subsystem.pdf), and the Zip folder of the project [*here*](Subsystem.zip).
+The schematic as a PDF download is available [*here*](Schematic.pdf), and the Zip folder of the project [*here*](Subsystem.zip).
