@@ -10,4 +10,4 @@ The block diagram shows the Microchip PIC-Nano board and its associated inputs a
 
 ## Block Diagram 
 
-![Block Diagram](IndBlockDiagram.png)
+![Block Diagram](BlockDiagram1.png)
