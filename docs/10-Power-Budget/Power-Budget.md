@@ -286,7 +286,7 @@ The selected **9 VDC / 3 A power supply provides substantial current margin abov
 
 ## Conclusions
 
-This design has a power budget that is well below design limits. The fuse selected to protect the device is slightly oversized. There were supply constraints and a 1A fuse was not available. Given ideal conditions a load of 0.75 A would be better protected with a 1A fuse. The power budget shows that the design is well below the available power for the supply and is within tolorance of the devices used in the system. 
+This design has a power budget that is well below design limits. The original design called for twice the number of LEDs resulting in a much larger power budget. Noted concerns included 9v bus load and possible heating issues. The fuse selected to protect the device is slightly oversized. There were supply constraints and a 1A fuse was not available. Given ideal conditions a load of 0.75 A would be better protected with a 1A fuse. The power budget shows that this second design is well below the available power for the supply and is within tolorance of the devices used in the system. 
 
 ## Resouces
 
