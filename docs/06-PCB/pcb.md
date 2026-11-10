@@ -14,4 +14,4 @@ title: Module's PCB
 
 ## Resouces
 
-The PCB as a PDF download is available [*here*](PCB.pdf), and the Zip folder of the project [*here*](Subsystem2.zip).
+The PCB as a PDF download is available [*here*](PCB.pdf), the Zip folder of the project [*here*](Subsystem2.zip), and the Zip folder of the Gerber files [*here*](CPlumley207.zip).
