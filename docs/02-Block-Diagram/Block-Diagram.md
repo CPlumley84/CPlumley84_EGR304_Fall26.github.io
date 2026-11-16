@@ -10,8 +10,8 @@ The block diagram shows the Microchip PIC-Nano board and its associated inputs a
 
 ## Block Diagram 
 
-![Block Diagram](PersonalBlockDiagram.png)
+![Block Diagram](BlockDiagram.png)
 
 ## Resouces
 
-The block diagram as a PDF download is available [*here*](PersonalBlockDiagramCLP.pdf), and a source file [*here*](https://app.diagrams.net/#G1LWr9XpyrrQmtF6XwokvjWBBkdfSSz1ql#%7B%22pageId%22%3A%22JaI7Hm2gRzim2e01LkNA%22%7D).
+The block diagram as a PDF download is available [*here*](BlockDiagram.pdf), and a source file [*here*](https://app.diagrams.net/#G1LWr9XpyrrQmtF6XwokvjWBBkdfSSz1ql#%7B%22pageId%22%3A%22JaI7Hm2gRzim2e01LkNA%22%7D).
